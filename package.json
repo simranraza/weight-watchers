@@ -1,0 +1,29 @@
+{
+  "name": "weight-watchers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagar-gavhane/weight-watchers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar-gavhane/weight-watchers/issues"
+  },
+  "homepage": "https://github.com/sagar-gavhane/weight-watchers#readme",
+  "dependencies": {
+    "aws-sdk": "^2.315.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

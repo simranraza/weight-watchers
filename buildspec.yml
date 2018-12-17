@@ -4,3 +4,20 @@ phases:
     commands:
       - npm install
       - npm test
+  build:
+    commands:
+      - npm build
+  
+  post_build:
+    commands:
+      - echo Entered the post_build phase...
+      - echo Build completed on `date`
+      - echo "The path to the output artifacts is:"
+      - echo $CODEBUILD_SRC_DIR
+      - pwd
+      - ls
+artifacts:
+  type: zip
+  files:
+    - build/**/*
+  discard-paths: no

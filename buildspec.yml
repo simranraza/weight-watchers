@@ -19,5 +19,6 @@ phases:
 artifacts:
   type: zip
   files:
-    - *
+    - '**/*'
+  name: $(AWS_REGION)-$(date +%Y-%m-%d)
   discard-paths: no

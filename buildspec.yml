@@ -19,5 +19,5 @@ phases:
 artifacts:
   type: zip
   files:
-    - **/*
+    - *
   discard-paths: no
